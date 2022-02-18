@@ -13,12 +13,12 @@ summary: |
   This step perform VPN connection with fortinet VPN protocol
 description: |
   No description
-website: https://github.com/cleberhenriques/bitrise-step-fortinet-vpn-connector
-source_code_url: https://github.com/cleberhenriques/bitrise-step-fortinet-vpn-connector
+website: https://github.com/Qwant-Mobile-CI/bitrise-step-fortinet-vpn-connector
+source_code_url: https://github.com/Qwant-Mobile-CI/bitrise-step-fortinet-vpn-connector
 support_url: https://github.com/cleberhenriques/bitrise-step-fortinet-vpn-connector/issues
 host_os_tags:
   - osx-10.10
-  - ubuntu-16.04
+  - ubuntu-20.04
 
 type_tags:
   - utility
