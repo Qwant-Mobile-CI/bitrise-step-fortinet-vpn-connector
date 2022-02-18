@@ -7,7 +7,7 @@ if [[ "$unamestr" == 'Linux' ]]; then
   echo "Update repositories, installing ppp and openfortivpn"
  
   sudo apt-get update && sudo apt-get install -y openfortivpn
-  nano /etc/resolv.conf
+  cat /etc/resolv.conf
 
 else
 
