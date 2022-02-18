@@ -5,7 +5,7 @@ unamestr=`uname`
 if [[ "$unamestr" == 'Linux' ]]; then
 
   echo "Update repositories, installing ppp and openfortivpn"
-  sudo apt-get update && sudo apt install openfortivpn
+  sudo apt-get update && sudo apt-get install -y openfortivpn
 
 else
 
