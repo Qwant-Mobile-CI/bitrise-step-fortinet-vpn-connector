@@ -15,7 +15,7 @@ else
 fi
 
 echo "Starting VPN connection with gateways - ${host}:${port}"
-sudo nohup openfortivpn ${host}:${port} -p=${password} -u=${username} --trusted-cert=${trusted_cert} &> $BITRISE_DEPLOY_DIR/logs.txt &
+sudo openfortivpn ${host}:${port} -p=${password} -u=${username} --trusted-cert=${trusted_cert} &> $BITRISE_DEPLOY_DIR/logs.txt &
 
 echo "Waiting connection"
 NUMBER_OF_RETRY=0
